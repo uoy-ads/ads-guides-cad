@@ -1,0 +1,56 @@
+## See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id:
+  banner: ads_logo.png
+  title: "CAD: A Guide to Good Practice"
+  subtitle: Archaeology Data Service, 2011
+  description: 
+  keywords:
+    - jupyter-book
+    - archaeology
+    - CAD
+  authors:
+    - name: Harrison Eiteljorg II
+    - name: Kate Fernie
+      orcid: https://orcid.org/0000-0003-3733-0727
+    - name: Jeremy Huggett
+      orcid: https://orcid.org/0000-0002-7535-9312
+    - name: Damian Robinson
+      orcid: https://orcid.org/0000-0003-0778-1076
+    - name: Stephen Dobson
+      orcid: https://orcid.org/0000-0001-5800-6729
+    - name: Ruggero Lancia
+    - name: Kieron Niven
+      orcid: https://orcid.org/0000-0002-0537-9238
+  license: CC-BY-4.0
+  open_access: true
+  doi: https://doi.org/10.5284/k5hd-hj61
+  github: uoy-ads/ads-guides-cad
+  toc:
+    - file: index.md
+    - file: content/1-ABriefIntroductionToCAD.md
+    - file: content/2-CapturingDataForCADProjects.md
+    - file: content/3-CADSystems.md
+    - file: content/4-DocumentingDataFromCADProjects.md
+    - file: content/5-ArchivingCADData.md
+    - file: content/6-Appendix1.md
+    - file: content/7-Appendix2.md
+    - file: content/8-CaseStudy1.md
+    - file: content/9-CaseStudy2.md
+    - file: content/10-CaseStudy3.md
+    - file: content/11-CaseStudy4.md
+    - file: content/12-CaseStudy5.md
+    - file: content/13-CaseStudy6.md
+    - file: content/14-BibliographyAndGlossary.md
+    - file: content/15-Acknowledgements.md
+  exports:
+    - format: pdf
+site:
+  template: book-theme
+  options:
+    favicon: images/g2gp_signpost.png
+    logo: images/g2gp_signpost.png
+    logo_text: Guides to Good Practice
+  parts:
+    footer: footer.md
